@@ -3,7 +3,7 @@ const tailwindcss = require('tailwindcss')
 
 mix.js('src/js/app.js', 'assets')
    .sass('src/scss/app.scss', 'assets')
-   .options({
+    .options({
       processCssUrls: false,
-      postCss: [tailwindcss('tailwind.config.js')],
-   });
+      postCss: [ tailwindcss('tailwind.config.js') ],
+  });
